@@ -6,7 +6,14 @@ class HomePage extends Component {
   
     return (
       <div>
-        <h1>My Portfolio</h1>
+        <div className="main">
+          
+          <div>
+            <p id="title">Timothy Weiss</p>
+            <p className="subtext">Full Stack Web Developer</p>
+          </div>
+        
+        </div>
       </div>
   );
  }
