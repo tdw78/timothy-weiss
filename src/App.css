@@ -1,7 +1,75 @@
 .App {
   text-align: center;
-  background-color: "#F0EBA6";
+  background-color: #03045E;
 }
 
+.main {
+  min-height: 100vh;
+  font-family: 'Merriweather', serif;
+  color: #90E0EF;
+}
+
+#title {
+  color: #F5F5F5;
+  font-family: 'Abril Fatface', cursive;
+  letter-spacing: .5rem;
+  padding-top: 111px;
+  font-size: 111px;
+}
+
+.list-group {
+  color: #81DCEE;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  line-height: 1.7;
+  word-spacing: 4px;
+  letter-spacing: .1rem;
+}
+
+.nav-link {
+  color: #C9B1BD;
+  background: #03045E;
+  font-family: 'Rockwell', cursive;
+  font-size: 22px;
+}
+
+/* .link-item {
+  color: #F5F5F5;
+  font-size: 19px;
+} */
+
+#about-me {
+  color: #81DCEE;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 1.7;
+  word-spacing: 4px;
+  letter-spacing: .1rem;
+}
+
+img {
+  height: 340px;
+  width: 400px;
+}
+
+.subtext {
+  color: #A4949C;
+  font-family: 'Copperplate Gothic', cursive;
+  font-size: 22px;
+  word-spacing: 4px;
+  letter-spacing: .8rem;
+}
+
+ .proj-description {
+  color: #F9F9ED;
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.7;
+  padding-left: 28px;
+  padding-top: 25px;
+  word-spacing: 4px;
+  letter-spacing: .1rem;
+}
 
 
