@@ -48,7 +48,7 @@ class Projects extends Component {
 
          <br></br>
          
-         <div className="row">
+         {/* <div className="row">
            <div className="col-lg-6">
             <a href="https://tdw78-capstone.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src="../../images/partyapp.png" alt="Party Planning App"/> </a>
            </div>
@@ -63,7 +63,7 @@ class Projects extends Component {
                is built with Node.js, Express, Passport, PostgreSQL, Sequelize and Jasmine.
              </p>
            </div>
-         </div>
+         </div> */}
 
          <br></br>
 
