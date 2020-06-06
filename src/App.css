@@ -41,11 +41,11 @@
 #about-me {
   color: #81DCEE;
   font-size: 17px;
-  font-weight: bold;
+  /* font-weight: bold; */
   text-align: left;
   line-height: 1.7;
   word-spacing: 4px;
-  letter-spacing: .1rem;
+  letter-spacing: .2rem;
 }
 
 img {
