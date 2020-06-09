@@ -18,7 +18,7 @@ class Projects extends Component {
     const listStyle = {
       color: "#F9F9ED",
       fontSize: 24,
-      lineHeight: 2.5
+      lineHeight: 1.5
     }
     return (
       <div>
@@ -48,7 +48,7 @@ class Projects extends Component {
 
          <br></br>
          
-         {/* <div className="row">
+         <div className="row">
            <div className="col-lg-6">
             <a href="https://tdw78-capstone.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src="../../images/partyapp.png" alt="Party Planning App"/> </a>
            </div>
@@ -58,12 +58,12 @@ class Projects extends Component {
              <a style={listStyle} href="https://github.com/tdw78/capstone" target="_blank" rel="noopener noreferrer">GitHub</a>
              <p className="proj-description">
                This app allows users to view the company’s products, photo albums 
-               and customer reviews.  Signed-in users are able to receive a quote 
-               for the items they have placed in their cart.<br></br>The Party Planning App
+               and customer reviews.  Signed-in users are able to view all of the prices
+               for each product and service.<br></br>The Party Planning App
                is built with Node.js, Express, Passport, PostgreSQL, Sequelize and Jasmine.
              </p>
            </div>
-         </div> */}
+         </div>
 
          <br></br>
 
