@@ -69,6 +69,24 @@ class Projects extends Component {
 
          <div className="row">
            <div className="col-lg-6">
+           <a href="https://tdw78-bloccit.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src="../../images/bloccit.png" alt="Bloccit"/> </a>
+           </div>
+           <div className="col-lg-4 list-group">  
+             <p style={listHeader}>Bloccit</p>
+             <a style={listStyle} href="https://tdw78-bloccit.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
+             <a style={listStyle} href="https://github.com/tdw78/blocipedia" target="_blank" rel="noopener noreferrer">GitHub</a>
+             <p className="proj-description">
+               Bloccit is an app where usere can create an account and post topics in order
+               to spark a conversation with other users. <br></br> I built this app with Node, Express, PostgreSQL, 
+               Sequelize and Passport.
+             </p>
+           </div>
+         </div>
+
+         <br></br>
+
+         <div className="row">
+           <div className="col-lg-6">
            <a href="https://tdw78-bloc-jams.herokuapp.com/" target="_blank" rel="noopener noreferrer"> <img src="../../images/bloc-jams.png" alt="Bloc Jams"/> </a>
            </div>
            <div className="col-lg-4 list-group">  
@@ -100,7 +118,6 @@ class Projects extends Component {
              </p>
            </div>
          </div>
-
 
         </div>
       </div>
