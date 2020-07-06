@@ -47,12 +47,13 @@ class Projects extends Component {
          </div>
 
          <br></br>
-
-         <div className="col-lg-6">
+         
+         <div className="row">
+           <div className="col-lg-6">
              <a href="https://rt-tile.herokuapp.com/" target="_blank" rel="noopener noreferrer" > <img src="../../images/shoppingapp.png" alt="Shopping App" /> </a>
            </div>
            <div className="col-lg-4 list-group"> 
-             <p style={listHeader}>The Shopping App</p>
+             <p style={listHeader}>RT Tile Co.</p>
              <a style={listStyle} href="https://rt-tile.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
              <a style={listStyle} href="https://github.com/tdw78/rt-tile" target="_blank" rel="noopener noreferrer" >GitHub</a> 
              <p className="proj-description">
