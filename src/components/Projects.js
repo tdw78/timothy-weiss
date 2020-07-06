@@ -47,6 +47,24 @@ class Projects extends Component {
          </div>
 
          <br></br>
+
+         <div className="col-lg-6">
+             <a href="https://rt-tile.herokuapp.com/" target="_blank" rel="noopener noreferrer" > <img src="../../images/shoppingapp.png" alt="Shopping App" /> </a>
+           </div>
+           <div className="col-lg-4 list-group"> 
+             <p style={listHeader}>The Shopping App</p>
+             <a style={listStyle} href="https://rt-tile.herokuapp.com/" target="_blank" rel="noopener noreferrer">Check it out!</a>
+             <a style={listStyle} href="https://github.com/tdw78/rt-tile" target="_blank" rel="noopener noreferrer" >GitHub</a> 
+             <p className="proj-description">
+               I am building app for a client who has a local tiling business.  It's an informational
+               website where customers can get his contact information, see photos if his previous
+               work and find out more about him and the company.
+               <br></br> I am building this app with React, Bootstrap and React Scroll.
+            </p>
+           </div>
+         </div>
+
+         <br></br>
          
          <div className="row">
            <div className="col-lg-6">
